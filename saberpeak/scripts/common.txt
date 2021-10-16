@@ -1,0 +1,24 @@
+
+//Place these shaders in your common.shader file in your etmain/scripts directory
+//If you already have shaders with the same names as these in your common.shader file
+//you can safely replace them with these.
+
+textures/common/alpha_0
+{
+	qer_trans 0.5
+	q3map_alphaMod volume
+	q3map_alphaMod set 0
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm trans
+}
+
+textures/common/alpha_100
+{
+	qer_trans 0.5
+	q3map_alphaMod volume
+	q3map_alphaMod set 1
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm trans
+}
